@@ -1,7 +1,7 @@
 
-let argument = process.argv.slice(2)
+// let argument = process.argv.slice(2)
 
-function showPrimeNumbers(lowNumbers,highNumbers) {
+export function showPrimeNumbers(lowNumbers,highNumbers) {
     for(let i = lowNumbers; i <= highNumbers; i++)
     {
         let primeNumbers = true;
@@ -18,4 +18,9 @@ function showPrimeNumbers(lowNumbers,highNumbers) {
 }
 
 //showPrimeNumbers(7,22)
-console.log(showPrimeNumbers(argument[0]*1,argument[1]*1))
+
+// module export ediyoruz
+//module.exports = showPrimeNumbers
+
+// es6 ile module export ediyoruz
+export default showPrimeNumbers()
