@@ -4,7 +4,7 @@
  *  Node.JS Javascript çalışma ortamında yarıçap değerini konsoldan parametre olarak girerek alanı bulma
  *  Yarıçapı (Yarıçap) olan dairenin alanı: (Alan) şeklinde olmalıdır.
  */
-let pi =3.12
+
 function daireAlan(Yarıcap){
     let Alan = Math.PI * Math.pow(Yarıcap,2)
     return Alan
