@@ -1,0 +1,24 @@
+{
+  "name": "p_node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "npm-moment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node npm-moment"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabiatp/PatikaNode.JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabiatp/PatikaNode.JS/issues"
+  },
+  "homepage": "https://github.com/rabiatp/PatikaNode.JS#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
